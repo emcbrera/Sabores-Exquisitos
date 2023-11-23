@@ -1,0 +1,93 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+
+  .fondo{
+    display: flex;
+    justify-content: center;
+    /*background-color: blanchedalmond;*/
+    min-height: 100vh;
+    background-image: url(https://img.freepik.com/foto-gratis/feliz-mujer-borrosa-siendo-sorprendida-dia-san-valentin_23-2148378464.jpg?w=996&t=st=1700193725~exp=1700194325~hmac=33ae941ad3553dd5bbfa4190364d9f28d543f9436c9be7c9fdfcc431fc2b30d7);
+    background-attachment: fixed;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url('https://img.freepik.com/foto-gratis/feliz-mujer-borrosa-siendo-sorprendida-dia-san-valentin_23-2148378464.jpg?w=996&t=st=1700193725~exp=1700194325~hmac=33ae941ad3553dd5bbfa4190364d9f28d543f9436c9be7c9fdfcc431fc2b30d7');
+    background-size: 100% 100%;
+    
+  }
+
+  .fondo__login{
+    display: flex;
+    flex-direction: column;
+    background-color: seashell;
+    text-align: center;
+    padding: 45px ;
+    margin: 0 auto;
+    margin-top: 130px;
+    height: 280px;
+    justify-content: space-evenly;
+    border-radius: 25px;
+    width: 200px;
+    
+  }
+
+  .fondo__titulos h1{
+    color: red;
+    font-size: 38px;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    text-align: center;
+    font: oblique bold 120% cursive;
+  }
+
+  .fondo__titulos h1:hover{
+    transition: transform 0.5s ease-in-out, color 0.5s ease-in-out;
+    transform: scale(1.1);
+    color: rgb(255, 0, 170);
+}
+
+  .fondo__titulos h3:hover{
+    transition: transform 0.5s ease-in-out, color 0.5s ease-in-out;
+    transform: scale(1.1);
+    color: rgb(255, 0, 170);
+  }
+  .fondo__titulos--login{
+    color: black;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font: oblique bold 120% cursive;
+  }
+
+  .fondo__input input{
+    outline: none;
+    border: none;
+    color: black;
+    border-bottom: solid 1px red;
+    }
+
+  .fondo__boton{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    border: none;
+  }
+
+  .fondo__boton button{
+    text-align: center;
+    border: solid 1px black;
+    border-radius: 7px;
+    background: linear-gradient(to right, #ff0000, #ff0084);
+    padding: 6px 9px;
+    margin: 20px;
+    font: oblique bold 75% cursive;
+    font-size: px;
+
+  }
+  .fondo__boton button:hover{
+    opacity: .9;
+    background: linear-gradient(to right, #ff0084,#ff0000);
+}
+#msm{
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font: oblique bold 60% cursive;
+}

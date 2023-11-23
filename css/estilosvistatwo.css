@@ -1,0 +1,12 @@
+* {
+    margin: 20px;
+    padding: 0px;
+    background-color: aquamarine;
+  }
+
+  .imglogo{
+    display: flex;
+    height: 100px;
+
+
+  }

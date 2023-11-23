@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/estiloslogin.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <section class="fondo">
+        <section class="fondo__login">
+            <header class="fondo__titulos">
+                <h1>SABORES EXQUISITOS</h1>
+                <Br></Br>
+                <h3 class="fondo__titulos fondo__titulos--login">LOGIN</h3>
+            </header>
+
+            <article class="fondo__input">
+                <i class="fa-solid fa-user"></i>
+                <input placeholder="Username" type="email" id="user" />
+            </article>
+            <article class="fondo__input">
+                <i class="fa-solid fa-lock"></i>
+                <input placeholder="Password" type="password" id="password" />
+            </article>
+
+            <article class="fondo__boton">
+                <button onclick="ingresar()">Ingresar</button>
+                <button onclick="clean()">Borrar</button>
+            </article>
+            <p id="msm"></p>
+        </section>  
+    </section>
+    <script src="./js/login.js"></script>
+</body>
+
+</html>
