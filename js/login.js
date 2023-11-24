@@ -32,25 +32,25 @@ function validarCorreo(email) {
     return mensajeCorreo;
 }
 
-//VALIDAR CONTRASEnA
+//VALIDAR CONTRASEÑA
 function validarContrasena(password) {
 
     let mensajeContrasena = "";
 
     if (password == "") {
-        mensajeContrasena = "DEBE LLENAR TODOS LOS CAMPOS, POR FAVOR INGRESE UNA CONTRASEnA";
+        mensajeContrasena = "DEBE LLENAR TODOS LOS CAMPOS, POR FAVOR INGRESE UNA CONTRASEÑA";
     } else
         if (password.length < 8) {
-            mensajeContrasena = "LA CONTRASEnA DEBE TENER AL MENOS 8 CARACTERES";
+            mensajeContrasena = "LA CONTRASEÑA DEBE TENER AL MENOS 8 CARACTERES";
         } else
             if (!(/[A-Z]/.test(password))) {
-                mensajeContrasena = "LA CONTRASEnA DEBE TENER AL MENOS UNA MAYUSCULA";
+                mensajeContrasena = "LA CONTRASEÑA DEBE TENER AL MENOS UNA MAYUSCULA";
             } else
                 if (!(/[a-z]/.test(password))) {
-                    mensajeContrasena = "LA CONTRASEnA DEBE TENER AL MENOS UNA MINUSCULA";
+                    mensajeContrasena = "LA CONTRASEÑA DEBE TENER AL MENOS UNA MINUSCULA";
                 } else
                     if (!(/\d{2}/.test(password))) {
-                        mensajeContrasena = "LA CONTRASEnA DEBE TENER AL MENOS 2 NUMEROS";
+                        mensajeContrasena = "LA CONTRASEÑA DEBE TENER AL MENOS 2 NUMEROS";
                     }
     return mensajeContrasena;
 }
@@ -65,7 +65,7 @@ function validarUsuario(email, password) {
         if (email == usuarios[i].usuario && password == usuarios[i].contrasena){
             break;
         } else
-            mensaje = " EL USUARIO NO ES VALIDO, DEBE INGRESAR UN USUARIO Y UNA CONTRASEnA CORRECTA";
+            mensaje = " EL USUARIO NO ES VALIDO, DEBE INGRESAR UN USUARIO Y UNA CONTRASEÑA CORRECTA";
     }
     return mensaje;
 }

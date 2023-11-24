@@ -7,7 +7,6 @@
   .fondo{
     display: flex;
     justify-content: center;
-    /*background-color: blanchedalmond;*/
     min-height: 100vh;
     background-image: url(https://img.freepik.com/foto-gratis/feliz-mujer-borrosa-siendo-sorprendida-dia-san-valentin_23-2148378464.jpg?w=996&t=st=1700193725~exp=1700194325~hmac=33ae941ad3553dd5bbfa4190364d9f28d543f9436c9be7c9fdfcc431fc2b30d7);
     background-attachment: fixed;
@@ -31,7 +30,7 @@
     
   }
 
-  .fondo__titulos h1{
+  .fondo__titulos--h1{
     color: red;
     font-size: 38px;
     font-family: "Helvetica Neue", Arial, sans-serif;
@@ -57,7 +56,7 @@
     font: oblique bold 120% cursive;
   }
 
-  .fondo__input input{
+  .fondo__input--input{
     outline: none;
     border: none;
     color: black;
@@ -72,7 +71,7 @@
     border: none;
   }
 
-  .fondo__boton button{
+  .fondo__boton--button{
     text-align: center;
     border: solid 1px black;
     border-radius: 7px;
