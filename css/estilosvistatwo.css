@@ -1,7 +1,6 @@
 * {
   margin: 20px;
   padding: px;
-
 }
 
 .header {
@@ -10,6 +9,7 @@
   flex-direction: row;
   height: 150px;
   border-radius: 10px;
+  flex-wrap: wrap;
 }
 
 .header__logo {
@@ -45,4 +45,58 @@
   text-shadow: 2px 2px 4px rgb(215, 134, 242);
   font: condensed 130% sans-serif;
   text-align: center;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(241, 228, 255);
+  border-radius: 10px;
+  height: 2000px;
+}
+
+.main__filtros {
+  background-color: rgb(252, 250, 231);
+  height: 500px;
+  width: 200px;
+  border-radius: 10px;
+}
+
+.main__tarjetas {
+  background-color: rgb(255, 225, 244);
+  height: 1800px;
+  width: 1100px;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.footer {
+  background-color: antiquewhite;
+  display: flex;
+  align-content: flex-end;
+  height: 100px;
+}
+
+/*---------------------------TARJETAS-------------------------------------------------*/
+.card {
+  border: solid 2px black;
+  border-radius: 5px;
+  background-color: rgb(233, 208, 251);
+  height: 400px;
+  width: 260px;
+  margin: 0px;
+  font-size: 10px;
+}
+
+.card__img{
+  display: flex;
+  align-items: center;
+}
+.card__img--cards {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  height: 200px;
+  margin: 0;
 }
