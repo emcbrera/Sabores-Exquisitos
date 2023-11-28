@@ -21,10 +21,13 @@
     </header>
     <main class="main">
         <aside class="main__filtros">
-            <p>FILTROS</p>
+            <h2>FILTROS</h2>
+            <p>filtro categoria</p>
+            <select name="" id=""></select>
+
         </aside>
         <section class="main__tarjetas">
-            <section >
+            <section class="main__container">
                 <article class="card">
                     <figure class="card__img">
                         <img class="card__img card__img--cards" src="img/card1.jpeg" alt="">
@@ -34,9 +37,9 @@
                     <P>CATEGORIA:</P>
                     <P>SECCIÓN:</P>
                     <P>GÉNERO:</P>
+                    <button class="button" onclick="">Ver mas</button>
                 </article>
-            </section>
-            <section >
+
                 <article class="card">
                     <figure class="card__img">
                         <img class="card__img card__img--cards" src="img/card2.jpg" alt="">
@@ -46,9 +49,9 @@
                     <P>CATEGORIA:</P>
                     <P>SECCIÓN:</P>
                     <P>GÉNERO:</P>
+                    <button class="button" onclick="">Ver mas</button>
                 </article>
-            </section>
-            <section >
+
                 <article class="card">
                     <figure class="card__img">
                         <img class="card__img card__img--cards" src="" alt="">
@@ -58,9 +61,9 @@
                     <P>CATEGORIA:</P>
                     <P>SECCIÓN:</P>
                     <P>GÉNERO:</P>
+                    <button class="button" onclick="">Ver mas</button>
                 </article>
-            </section>
-            <section >
+
                 <article class="card">
                     <figure class="card__img">
                         <img class="card__img card__img--cards" alt="">
@@ -70,9 +73,9 @@
                     <P>CATEGORIA:</P>
                     <P>SECCIÓN:</P>
                     <P>GÉNERO:</P>
+                    <button class="button" onclick="">Ver mas</button>
                 </article>
-            </section>
-            <section >
+
                 <article class="card">
                     <figure class="card__img">
                         <img class="card__img card__img--cards" src="" alt="">
@@ -82,9 +85,9 @@
                     <P>CATEGORIA:</P>
                     <P>SECCIÓN:</P>
                     <P>GÉNERO:</P>
+                    <button class="button" onclick="">Ver mas</button>
                 </article>
-            </section>
-            <section >
+
                 <article class="card">
                     <figure class="card__img">
                         <img class="card__img--cards" src="" alt="">
@@ -94,9 +97,9 @@
                     <P>CATEGORIA:</P>
                     <P>SECCIÓN:</P>
                     <P>GÉNERO:</P>
+                    <button class="button" onclick="">Ver mas</button>
                 </article>
-            </section>
-            <section >
+
                 <article class="card">
                     <figure class="card__img">
                         <img class="card__img--cards" src="" alt="">
@@ -106,9 +109,9 @@
                     <P>CATEGORIA:</P>
                     <P>SECCIÓN:</P>
                     <P>GÉNERO:</P>
+                    <button class="button" onclick="">Ver mas</button>
                 </article>
-            </section>
-            <section >
+
                 <article class="card">
                     <figure class="card__img">
                         <img class="card__img--cards" src="" alt="">
@@ -118,9 +121,9 @@
                     <P>CATEGORIA:</P>
                     <P>SECCIÓN:</P>
                     <P>GÉNERO:</P>
+                    <button class="button" onclick="">Ver mas</button>
                 </article>
-            </section>
-            <section >
+
                 <article class="card">
                     <figure class="card__img">
                         <img class="card__img--cards" src="" alt="">
@@ -130,9 +133,9 @@
                     <P>CATEGORIA:</P>
                     <P>SECCIÓN:</P>
                     <P>GÉNERO:</P>
+                    <button class="button" onclick="">Ver mas</button>
                 </article>
-            </section>
-            <section >
+
                 <article class="card">
                     <figure class="card__img">
                         <img class="card__img--cards" src="" alt="">
@@ -142,16 +145,25 @@
                     <P>CATEGORIA:</P>
                     <P>SECCIÓN:</P>
                     <P>GÉNERO:</P>
+                    <button class="button" onclick="">Ver mas</button>
                 </article>
+            </section><br><br>
+            <section class="navegacion">
+                <button class="button__nav" onclick="anterior()">Atras</button>
+                <p>1</p>
+                <button class="button__nav" onclick="siguiente()">Siguiente</button>
             </section>
-            
         </section>
-        
     </main>
     <footer class="footer">
-
-        <p>FOOTER</p>
-
+        <section class="footer__container" >
+            <p class="footer__container footer__container--p">Sabores Exquisitos</p>
+            <figure class="footer__imagenes">
+                <img class="footer__imagenes footer__imagenes--img" src="img/facebook.png" alt="">
+                <img class="footer__imagenes footer__imagenes--img" src="img/whatsApp.png" alt="">
+                <img class="footer__imagenes footer__imagenes--img" src="img/Instagram.png" alt="">
+            </figure>
+        </section>
     </footer>
     <script src="./js/vistatwo.js"></script>
 </body>

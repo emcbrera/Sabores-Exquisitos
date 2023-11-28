@@ -1,10 +1,11 @@
 * {
   margin: 20px;
   padding: px;
+  background-color: #eddedf;
 }
 
 .header {
-  background-color: rgb(255, 237, 250);
+  background-color: #e5bbe5;
   display: flex;
   flex-direction: row;
   height: 150px;
@@ -20,7 +21,7 @@
 }
 
 .header__logo--img {
-  border: solid 1px red;
+  border: solid 2px #430c0c;
   margin: 0px;
 }
 
@@ -28,21 +29,22 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background-color: #e5bbe5;
 }
 
 .header__titulo--h1 {
-  color: crimson;
+  color: #925535;
   border-color: darkred;
-  text-shadow: 2px 2px 4px rgb(215, 134, 242);
+  text-shadow: 2px 2px 4px #bcbbe5;
   font: oblique bold 250% cursive;
   text-align: center;
   margin: 0px;
 }
 
 .header__titulo--p {
-  color: rgb(19, 2, 5);
+  color: #601e15;
   border-color: darkred;
-  text-shadow: 2px 2px 4px rgb(215, 134, 242);
+  text-shadow: 3px 3px 6px #bcbbe5;
   font: condensed 130% sans-serif;
   text-align: center;
 }
@@ -50,53 +52,143 @@
 .main {
   display: flex;
   flex-direction: row;
-  background-color: rgb(241, 228, 255);
+  background-color: #e5bbe5;
   border-radius: 10px;
-  height: 2000px;
+  height: 2070px;
 }
 
 .main__filtros {
-  background-color: rgb(252, 250, 231);
+  background-color: #eddedf;
   height: 500px;
   width: 200px;
   border-radius: 10px;
 }
 
+/*---------------------------TARJETAS-------------------------------------------------*/
 .main__tarjetas {
-  background-color: rgb(255, 225, 244);
-  height: 1800px;
+  background-color: #eddedf;
+  height: 1900px;
   width: 1100px;
   border-radius: 10px;
+
+}
+
+.main__container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+
 }
 
-.footer {
-  background-color: antiquewhite;
-  display: flex;
-  align-content: flex-end;
-  height: 100px;
-}
-
-/*---------------------------TARJETAS-------------------------------------------------*/
 .card {
   border: solid 2px black;
   border-radius: 5px;
-  background-color: rgb(233, 208, 251);
-  height: 400px;
-  width: 260px;
-  margin: 0px;
+  background-color: #bcbbe5;
+  height: 435px;
+  width: 265px;
+  margin: 10px;
   font-size: 10px;
+  padding: 5px;
 }
 
-.card__img{
+.card__ver {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 15px;
+}
+
+.card__img {
   display: flex;
   align-items: center;
 }
+
 .card__img--cards {
   display: flex;
   align-items: center;
   padding: 5px;
   height: 200px;
   margin: 0;
+}
+
+/*-----------------------BOTONES--------------------------------------------*/
+
+.navegacion {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #e5bbe5;
+  height: 50px;
+  margin: 5px;
+  padding: 10px;
+}
+
+.card  button{
+  width: 70px;
+  border-color: black;
+  background-color: #a7dce9;
+  border-radius: 10px;
+  margin: 0px;
+  font: oblique bold 120% cursive;
+  align-items: flex-end;
+  
+}
+
+.button__nav {
+  width: 100px;
+  text-align: center;
+  border: solid 1px black;
+  border-radius: 7px;
+  background: linear-gradient(to right, #7d1a73, #c97696);
+  padding: 6px 9px;
+  margin: 20px;
+  font: oblique bold 75% cursive;
+  font-size: 17px;
+}
+
+.button__nav:hover {
+  opacity: .9;
+  background: linear-gradient(to right, #c97696, #772093);
+}
+
+.button__nav--ver {
+  width: 80px;
+  border: none;
+}
+
+/*----------FOOTER-------------------*/
+
+.footer {
+  background-color: #e5bbe5;
+  display: flex;
+  justify-content: center;
+  height: 170px;
+  border-radius: 10px;
+}
+
+.footer {
+  background-color: #e5bbe5;
+}
+
+.footer__container {
+  background-color: #e5bbe5;
+}
+
+.footer__container--p {
+  font: oblique bold 140% cursive;
+  color: #925535;
+  text-shadow: 2px 2px 4px #bcbbe5;
+}
+
+
+.footer__imagenes {
+  background: #e5bbe5;
+
+}
+
+.footer__imagenes--img {
+  background: #e5bbe5;
+  height: 35px;
+  width: 45px;
+  padding: 4px;
+  margin: 5px;
+  border-radius: 100%;
 }
