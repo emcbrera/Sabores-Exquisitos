@@ -708,7 +708,5 @@ function anterior(){
 }
 
 function siguiente(){
-    if () {
-        
-    }
+    
 }
